@@ -1,0 +1,7 @@
+server:
+  httpPort: 8000
+
+authTokenExpireHour: 158 # 7天
+
+mongo:
+  dsn: mongodb://localhost:27017?minPoolSize=10&maxIdleTimeMS=10000
